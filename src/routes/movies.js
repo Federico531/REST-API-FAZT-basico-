@@ -55,7 +55,8 @@ router.put('/:id', (req, res) => {
         res.status(500).json({error: "hubo un error"})
     }
 });
-
+ 
+//ACTUALIZO CUALQUIER GILADA
    
 
 module.exports = router;
