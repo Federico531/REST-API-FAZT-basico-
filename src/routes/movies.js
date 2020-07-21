@@ -56,7 +56,6 @@ router.put('/:id', (req, res) => {
     }
 });
  
-//ACTUALIZO CUALQUIER GILADA
-   
+
 
 module.exports = router;
