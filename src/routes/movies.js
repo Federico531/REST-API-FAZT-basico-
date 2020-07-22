@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const router = Router();
-const _ = require('underscore') //BIBLIOTECA
+const _ = require('underscore') //BIBLIOTECA recorre indices de array 
 const movies = require('../sampleDB.json')
 console.log(movies);
 
@@ -56,6 +56,6 @@ router.put('/:id', (req, res) => {
     }
 });
  
-
+   
 
 module.exports = router;
